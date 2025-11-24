@@ -72,3 +72,4 @@ Notas
   - Revise https://github.com/Jhon1Alexis1Gonzalez1Cardenas/metodo_biseccion
   - O copie los valores de errores.properties y cree una clase con constantes para mapear códigos a mensajes.
 - Este README es el único archivo de instrucciones para llamar y procesar la API.
+- nota a ultma hora(24/11/2025): acabe de coolocar el archivo errores.properties en el proyecto, para que puedan importar los mensajes de error aqui en el repositorio en una carpeta llamada recursos.

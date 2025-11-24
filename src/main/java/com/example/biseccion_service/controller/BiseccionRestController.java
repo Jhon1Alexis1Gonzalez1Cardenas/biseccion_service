@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin
 @RestController
-@RequestMapping("/api/Biseccion_service")
+@RequestMapping("/api/biseccion_service")
 public class BiseccionRestController {
 
     private final BiseccionService biseccionService;

@@ -1,4 +1,4 @@
-package BiseLibJava;
+package Libise.BiseLibJava;
 
 public class BiseLibJava {
 
@@ -6,7 +6,7 @@ public class BiseLibJava {
 
     public BiseLibJava() {
         try{
-            System.loadLibrary("libbiseLibJava");
+            System.loadLibrary("biseLibJava");
             System.out.println("Biblioteca cargada exitosamente!");
         }catch (UnsatisfiedLinkError e){
             System.err.println("Carga de la biblioteca fallida: " + e.getMessage());

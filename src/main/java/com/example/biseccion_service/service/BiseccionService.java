@@ -1,6 +1,6 @@
 package com.example.biseccion_service.service;
 
-import BiseLibJava.BiseLibJava;
+import Libise.BiseLibJava.BiseLibJava;
 import org.springframework.stereotype.Service;
 
 @Service

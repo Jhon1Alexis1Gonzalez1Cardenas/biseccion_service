@@ -1,1 +1,10 @@
-
+services:
+    spring-jni:
+        image: 'jhonalexisgoz/biseccion_service:latest'
+        ports:
+        - '9090:8080'
+        networks:
+        - red-backend-app
+networks:
+  red-backend-app:
+    driver: bridge
